@@ -79,4 +79,5 @@ public class CustomerServiceTest {
         verify(customerRepo,times(1))
                 .updateForPassword(encoder.encode(anyString()),CUSTOMER.getId());
     }
+
 }
